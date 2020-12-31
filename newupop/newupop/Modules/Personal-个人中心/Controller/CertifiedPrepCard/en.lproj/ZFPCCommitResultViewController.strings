@@ -1,0 +1,6 @@
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "BEa-e8-ajE"; */
+"BEa-e8-ajE.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "资料已受理，\n系统正在审核，请耐心等待"; ObjectID = "ZhW-S8-DdY"; */
+"ZhW-S8-DdY.text" = "Application has been accepted and is under review.  \nWe will notify you within one business day.  Please be patient.";

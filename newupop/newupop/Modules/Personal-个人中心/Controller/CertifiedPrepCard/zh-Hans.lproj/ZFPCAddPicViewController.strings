@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "注意事项"; ObjectID = "7fa-wW-LVx"; */
+"7fa-wW-LVx.text" = "注意事项:";
+
+/* Class = "UILabel"; text = "请上传背面照片"; ObjectID = "9cS-PV-xhT"; */
+"9cS-PV-xhT.text" = "请上传正面照片";//请上传背面照片
+
+/* Class = "UILabel"; text = "请上传账单证明照片"; ObjectID = "BMZ-OC-gbq"; */
+"BMZ-OC-gbq.text" = "请上传账单证明照片";
+
+/* Class = "UILabel"; text = "请将证件正反面放置指定区域"; ObjectID = "DM9-6C-Sjs"; */
+"DM9-6C-Sjs.text" = "请将证件正反面放置指定区域";
+
+/* Class = "UILabel"; text = "请上传工作准证正面照片"; ObjectID = "EpW-71-e4Y"; */
+"EpW-71-e4Y.text" = "请上传工作准证正面照片";
+
+/* Class = "UILabel"; text = "请上传工作准证反面照片"; ObjectID = "J1p-Qa-oak"; */
+"J1p-Qa-oak.text" = "请上传工作准证反面照片";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "TR5-bt-E2z"; */
+"TR5-bt-E2z.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "请上传正面照片"; ObjectID = "Xrh-Se-jGC"; */
+"Xrh-Se-jGC.text" = "请上传手持证件照片";//请上传正面照片
+
+/* Class = "UILabel"; text = "请上传手持证件照片"; ObjectID = "bKV-gr-uaT"; */
+"bKV-gr-uaT.text" = "请上传背面照片";//请上传手持证件照片
+
+/* Class = "UILabel"; text = "请上传手持工作准证照片"; ObjectID = "e5L-n4-osD"; */
+"e5L-n4-osD.text" = "请上传手持工作准证照片";
+
+/* Class = "UILabel"; text = "采用标准拍摄，避免反光和模糊，避免图片太小"; ObjectID = "o7u-kg-1fB"; */
+"o7u-kg-1fB.text" = "采用标准拍摄，避免反光和模糊，避免图片太小";

@@ -1,0 +1,102 @@
+
+/* Class = "UITextField"; placeholder = "输入邮箱"; ObjectID = "1o9-Ys-mXV"; */
+"1o9-Ys-mXV.placeholder" = "输入邮箱";
+
+/* Class = "UILabel"; text = "邮编"; ObjectID = "2b5-J1-g7e"; */
+"2b5-J1-g7e.text" = "邮编";
+
+/* Class = "UILabel"; text = "*币种"; ObjectID = "5gh-Yv-FCR"; */
+"5gh-Yv-FCR.text" = "*币种";
+
+/* Class = "UILabel"; text = "*国家区号"; ObjectID = "8oi-d5-LTk"; */
+"8oi-d5-LTk.text" = "*国家区号";
+
+/* Class = "UILabel"; text = "*家庭地址"; ObjectID = "Dzy-wo-rmq"; */
+"Dzy-wo-rmq.text" = "*家庭地址";
+
+/* Class = "UILabel"; text = "*证件有效期"; ObjectID = "GM0-dG-Apn"; */
+"GM0-dG-Apn.text" = "*证件有效期";
+
+/* Class = "UITextField"; placeholder = "输入公司名称"; ObjectID = "MTw-nz-ggy"; */
+"MTw-nz-ggy.placeholder" = "输入公司名称";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "Mvm-2d-A4b"; */
+"Mvm-2d-A4b.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "*座机"; ObjectID = "PD5-1N-gO4"; */
+"PD5-1N-gO4.text" = "*座机";
+
+/* Class = "UILabel"; text = "如果家庭地址与身份证上的不同，请提供账单证明。非永久居民必须提供帐单证明；"; ObjectID = "PJK-re-I3V"; */
+"PJK-re-I3V.text" = "如果家庭地址与身份证上的不同，请提供账单证明。非永久居民必须提供帐单证明；";
+
+/* Class = "UILabel"; text = "*公司地址"; ObjectID = "QK5-0P-3Mn"; */
+"QK5-0P-3Mn.text" = "*公司地址";
+
+/* Class = "UILabel"; text = "*出生日期"; ObjectID = "QNO-6t-soX"; */
+"QNO-6t-soX.text" = "*出生日期";
+
+/* Class = "UILabel"; text = "*国籍"; ObjectID = "QUs-Jt-oIv"; */
+"QUs-Jt-oIv.text" = "*国籍";
+
+/* Class = "UITextField"; placeholder = "输入职业"; ObjectID = "QxU-2M-VTN"; */
+"QxU-2M-VTN.placeholder" = "输入职业";
+
+/* Class = "UILabel"; text = "*证件类型"; ObjectID = "ReG-IU-gdq"; */
+"ReG-IU-gdq.text" = "*证件类型";
+
+/* Class = "UITextField"; placeholder = "输入座机号码"; ObjectID = "UWb-JE-cDQ"; */
+"UWb-JE-cDQ.placeholder" = "输入座机号码";
+
+/* Class = "UITextField"; placeholder = "输入手机号"; ObjectID = "W9u-pu-5xb"; */
+"W9u-pu-5xb.placeholder" = "输入手机号";
+
+/* Class = "UILabel"; text = "*工作准证有效期"; ObjectID = "Xbk-cb-ezN"; */
+"Xbk-cb-ezN.text" = "*工作准证有效期";
+
+/* Class = "UILabel"; text = "*居住国家"; ObjectID = "Xox-eu-aMs"; */
+"Xox-eu-aMs.text" = "*居住国家";
+
+/* Class = "UILabel"; text = "邮箱"; ObjectID = "ZZ3-FW-EO3"; */
+"ZZ3-FW-EO3.text" = "邮箱";
+
+/* Class = "UILabel"; text = "*手机号"; ObjectID = "bil-SP-dI7"; */
+"bil-SP-dI7.text" = "*手机号";
+
+/* Class = "UILabel"; text = "*公司名称"; ObjectID = "c4h-U2-eVr"; */
+"c4h-U2-eVr.text" = "*公司名称";
+
+/* Class = "UITextField"; placeholder = "输入证件号"; ObjectID = "iKe-M4-k9V"; */
+"iKe-M4-k9V.placeholder" = "输入证件号";
+
+/* Class = "UILabel"; text = "*证件号"; ObjectID = "kGC-x9-cRU"; */
+"kGC-x9-cRU.text" = "*证件号";
+
+/* Class = "UILabel"; text = "*性别"; ObjectID = "lJe-0P-JxU"; */
+"lJe-0P-JxU.text" = "*性别";
+
+/* Class = "UITextField"; placeholder = "输入证件姓名"; ObjectID = "oSO-5d-eVB"; */
+"oSO-5d-eVB.placeholder" = "输入证件姓名";
+
+/* Class = "UILabel"; text = "*持卡人姓名"; ObjectID = "pBv-aO-AkJ"; */
+"pBv-aO-AkJ.text" = "*持卡人姓名";
+
+/* Class = "UITextField"; placeholder = "输入邮编"; ObjectID = "qNA-rz-n9l"; */
+"qNA-rz-n9l.placeholder" = "输入邮编";
+
+/* Class = "UITextField"; placeholder = "输入公司地址"; ObjectID = "sDO-ao-RQw"; */
+"sDO-ao-RQw.placeholder" = "输入公司地址";
+
+/* Class = "UILabel"; text = "*职业"; ObjectID = "tEH-w8-s68"; */
+"tEH-w8-s68.text" = "*职业";
+
+/* Class = "UILabel"; text = "*工作准证号"; ObjectID = "upw-VE-70L"; */
+"upw-VE-70L.text" = "*工作准证号";
+
+/* Class = "UITextField"; placeholder = "输入工作准证号"; ObjectID = "xbQ-kb-8nR"; */
+"xbQ-kb-8nR.placeholder" = "输入工作准证号";
+
+/* Class = "UILabel"; text = "*年收入"; ObjectID = "xky-0M-KvQ"; */
+"xky-0M-KvQ.text" = "*年收入";
+
+/* Class = "UITextField"; placeholder = "输入家庭地址"; ObjectID = "yqh-4k-FzL"; */
+"yqh-4k-FzL.placeholder" = "输入家庭地址";

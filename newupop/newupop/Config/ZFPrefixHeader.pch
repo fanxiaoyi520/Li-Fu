@@ -1,0 +1,40 @@
+//
+//  ZFPrefixHeader.pch
+//  newupop
+//
+//  Created by Jellyfish on 2017/7/20.
+//  Copyright © 2017年 中付支付. All rights reserved.
+//
+
+#ifndef ZFPrefixHeader_pch
+#define ZFPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+#pragma mark - 头文件夹
+#import "UIView+FrameCategory.h"
+#import "Masonry.h"
+#import "Config.h"
+#import "NetworkEngine.h"
+#import "XLAlertController.h"
+#import "MBUtils.h"
+#import "ZFGlobleManager.h"
+#import "ZFBaseTextField.h"
+#import "TripleDESUtils.h"
+#import "LocationUtils.h"
+#import "SmallUtils.h"
+#import "UITextField+LimitLength.h"
+#import "Definition.h"
+#import "YYModel.h"
+#import "CountDown.h"
+#import "ZDPayPopView.h"
+#import <LocalAuthentication/LocalAuthentication.h>
+#import "SmallUtils.h"
+#import "JQFMDB.h"
+#import "ZFLogin.h"
+
+#endif
+
+#endif /* ZFPrefixHeader_pch */

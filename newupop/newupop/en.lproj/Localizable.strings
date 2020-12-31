@@ -1,0 +1,511 @@
+/* 
+  Localizable.strings
+  newupop
+
+  Created by 中付支付 on 2017/10/18.
+  Copyright © 2017年 中付支付. All rights reserved.
+*/
+
+//登录页
+"登录" = "Log in";
+" 登录 " = "Log in";
+"注册" = "Register";
+//"请输入手机号" = "Please enter phone number";
+"请输入密码" = "Please enter password";
+"验证码登录" = "Verification code log in";
+"忘记密码" = "Forget password";
+"确定" = "Confirm";
+"请选择手机区号" = "Select Area Code";
+"手机号码应为7~11位" = "Phone number entered incorrect";
+"请输入登录密码" = "Please enter log in password";
+"登录密码长度不能小于6位" = "Log in password entered incorrect";
+"登录密码长度不能大于20位" = "Log in password entered incorrect";
+
+//注册和验证码登录
+"验证码" = "Verification code";
+"下一步" = "Next Step";
+"后重新获取" = "Retrieve after";
+"重新获取" = "Retrieve again";
+"验证码输入错误" = "Verification code entered incorrect";
+"获取验证码" = "Get verification code";//自译
+"pic_sign_in_background_chinese" = "pic_sign_in_background_english";
+
+//忘记密码
+"找回登录密码" = "Find your log in password";
+"找回支付密码" = "Find your payment password";
+"请输入收到的短信验证码" = "Please enter the SMS verification code received";
+"设置登录密码" = "Set log in password";
+"请再次输入" = "Please re-enter log in password";
+"请输入6-20位登录密码" = "Log in password should be in between 6~20 characters";
+"两次输入的密码不一致" = "Two password entered does not match";
+
+//首页
+"扫一扫付款" = "Scan to Pay";
+"付款码付款" = "QR Payment";
+"我的银行卡" = "My bank card";
+"早上好" = "Good morning";
+"上午好" = "Good morning";
+"凌晨好" = "Good morning";
+"下午好" = "Good afternoon";
+"晚上好" = "Good evening";
+"发现新版本" = "New version found";
+"推荐更新" = "Recommend update";
+"取消" = "Cancel";
+"优计划" = "U Plan";
+"更多优计划优惠" = "More U Plan";
+"不能访问您的相机" = "Cannot visit your camera!";
+"请前往“设置”打开相机访问权限" = "Please go to \"setting\" to enable camera access";
+"打开" = "Open \"Setting\"";
+"该设备不支持相机" = "Camera function not supported on this device";
+"下拉刷新数据" = "Pull to refresh";
+"松开立即刷新" = "Release to refresh";
+"正在加载..." = "Loading...";
+"正在加载" = "Loading";
+"点击或上拉加载更多" = "Click or drag up to refresh";
+"正在加载更多数据..." = "Loading more ...";
+"没有更多数据" = "No more data";
+"快捷支付" = "Fast payment";
+"产品金额" = "Product amount";
+"扣款金额" = "debit amount";
+"查看详情" = "Check for details";
+"年" = "YY";
+"月" = "MM";
+"日" = "DD";
+
+//个人中心
+"我的" = "Personal";
+"交易记录" = "Transaction record";
+"密码管理" = "Password management";
+"支付设置" = "Payment setting";
+"其他" = "Others";
+"关于SinoPay" = "About Sinopay";
+"帮助中心" = "Help center";
+"意见反馈" = "Feedback";
+"推送设置" = "Push setting";
+"邀请好友" = "Invite friends";
+"联系方式" = "Contact number";
+"QQ／手机／邮箱" = "QQ/ Cell phone/ Email";
+"提交" = "Submit";
+"推送通知" = "Push notification";
+"UPOP的推送通知已关闭，转到“设置”，将其开启，然后重新进入UPOP APP" = "UPOP push notification is turned off, go to \"Setting\" to turn it on, and open the UPOP APP again";
+"打开“设置”" = "Open \"Setting\"";
+"发生以下情况，发送推送通知" = "Send push notification during following circumstances";
+"优惠通知" = "Discount notification";
+"交易通知" = "Transaction notification";
+"关于我们" = "About us";
+"给我们评分" = "Rate us";
+"商务合作" = "Business partnership";
+"客服电话" = "Customer service number";
+
+//账号设置
+"账号设置" = "Account Settings";
+"头像" = "Profile picture";
+"姓名" = "Name";
+"证件号码" = "IC No.";
+"手机号码" = "Phone No.";
+"退出登录" = "Log out";
+
+//交易记录
+"筛选" = "Select ";
+"暂无交易记录" = "Currently no transaction record";
+"交易" = "Transaction";
+"笔" = "Transactions";
+"支出" = "Expense";
+"付款详情" = "Transaction detail";
+"优惠信息" = "Special offer";
+"产品扣款金额" = "Deduction amount";
+"付款银行" = "Debit bank";
+"交易时间" = "Transaction time";
+"交易状态" = "Transaction status";
+"商家信息" = "Merchant name";
+"商户号" = "Merchant No.";
+"终端号" = "Terminal No.";
+"交易单号" = "Transaction reference number";
+"付款成功" = "Payment success";
+
+//密码管理
+"设置支付密码" = "Set payment password";
+"修改登录密码" = "Change log in password";
+"修改支付密码" = "Change payment password";
+"指纹解锁" = "Touch ID";
+"请输入6位支付密码" = "Please enter the payment password";
+"请再次输入支付密码" = "Please re-enter payment password";
+"确认支付密码" = "Confirm payment password";
+"安全验证" = "Security Verification";
+"请输入支付密码，以验证身份" = "To verify your identity, please enter the password";
+"设置成功" = "Set password success";
+"密码设置成功" = "Set password success";
+"您可以使用新密码进行相关操作" = "You can operate using the new password";
+"完成" = "Complete";
+"请输入支付密码" = "Enter the payment password";
+"支付密码" = "Payment password";
+
+//添加银行卡
+"银行卡" = "Bank Card";
+"消费银行卡" = "Transaction at ";
+"解绑" = "Unbind";
+"储蓄卡" = "Debit card";
+"借记卡" = "Debit card";
+"信用卡" = "Credit card";
+"添加银行卡" = "Add Bank Card";
+"国家" = "Country";
+"卡号" = "Card No.";
+"证件号码" = "ID No.";
+"请输入银行卡号" = "Enter the bank card number";
+"请输入开户姓名" = "Cardholder's name";
+"请输入有效证件号码" = "Identification number";
+"请先绑定对应的银行卡" = "Bind bank card first";
+"持卡人说明" = "Cardholder Instruction";
+"为保证资金安全，暂只能绑定持卡人本人名下的银行卡，若需更改持卡人信息，请解绑全部银行卡" = "In order to ensure fund safety, only the bank card registered under cardholder himself/herself can be bind at this time, if cardholder’s information need to be changed, please unbind all bank cards
+";
+"请选择地区/国家" = "Select Region/Country";
+"请输入银行卡号" = "Enter the bank card number";
+"银行卡号输入有误" = "Bank card number error";
+"持卡人姓名不能为空" = "Cardholder's name error";
+"证件号码输入有误" = "Identification number error";
+"补充信用卡信息" = "Credit card information";
+"卡背后三位数字" = "the last 3 digit";
+"有效期" = "Validity";
+"年在前月在后，例如2609" = "YY/MM, for example, 2609";
+"银行卡安全码输入有误" = "Bank card security code error";
+"银行卡有效期输入有误" = "Bank card expiration date error";
+"CVN说明" = "CVN instructions";
+"卡背面三位数字" = "The 3 digit number on the back";
+"有效期说明" = "Expiration date explanation";
+"卡正面有效期" = "Expiration date at the front of the card";
+"验证手机号" = "Verify your phone number";
+"选择支付银行卡" = "Select bank card";
+
+//二维码付款
+"付款" = "Payment";
+"点击可查看付款码数字" = "Click to view payment code number";
+"请向商家提供此付款码付款" = "Provide this payment code to the merchant for payment";
+"更改" = "Change";
+"扫一扫" = "Scan to pay";
+"付款码" = "QR Payment";
+"选择优先付款方式" = "Select payment method";
+"优先使用所选付款方式，如付款失败将尝试使用其他方式完成付款" = "Choose this payment method as your preferred payment method, if payment failed, try other payment methods to complete the payment";
+"添加新的银行卡" = "Add new bank card";
+"暂未绑定银行卡\n请绑定银行卡后重试" = "Local bank card not linked\nplease try again after link your card";
+"暂未绑定当前城市的银行卡\n请绑定银行卡后重试" = "Local bank card not linked\nplease try again after link your card";
+"去绑卡" = "Link your card";
+"未找到当前城市的银行卡,暂不能无网络支付" = "Local bank card not linked";
+
+//扫码付款
+"相册" = "Album";
+"提示" = "Hint";
+"无法访问相册" = "Cannot access camera";
+"请去设置中打开访问相册开关" = "Please go to Setting to turn on the camera access";
+"暂不支持此类二维码，请重试" = "This QR code currently not supported";
+"轻触关闭" = "Touch to turn off";
+"轻触照亮" = "Touch to enable the light";
+"向..付款" = "Pay to ";
+"查询中" = "Checking";
+"付款金额" = "Payment amount";
+"请输入付款金额" = "Enter the payment amount";
+"请输入金额" = "Enter the amount";
+"支付" = "Payment";
+"选择付款方式" = "Choose your payment method";
+"查询商户交易信息" = "Checking for merchant transaction information";
+"消费金额不能超出9999999.99元" = "Transaction amount cannot exceed RMB 9999999.99";
+"确认支付" = "Confirm the payment";
+"使用密码" = "Use the password";
+
+//共有
+"加载中" = "Loading";
+"注意" = "Attention";
+"此账号已在其他设备登录，若非本人操作请及时联系客服" = "This account has been logged in on other devices, if it’s not you, please contact customer service immediately";
+"新加坡" = "Singapore";
+"马来西亚" = "Malaysia";
+"中国香港/中国澳门" = "HK／MO";
+"香港/澳门" = "HK／MO";
+"其它地区" = "Other regions";
+"新币" = "SGD";
+"港币" = "HKD";
+"美元" = "USD";
+"马币" = "MYR";
+"人民币" = "CNY";
+
+"立即使用" = "Use";
+"查看优惠券" = "View Coupons";
+"暂无优惠券" = "No coupon";
+
+// 新添加
+"多语言" = "Multilingual";
+"拍照" = "Take photo";
+"从手机相册选择" = "Choose from the album";
+"首页" = "Home";
+"头像上传中" = "Uploading profile pictures";
+"网络请求失败" = "Network request failed";
+"注册即代表您同意" = "by registering, you agree to the";
+"服务协议" = "《Service Agreement》";
+"积分查询中" = "Checking for reward points";
+"我的积分" = "My reward points";
+"我的优惠券" = "My coupons";
+"暂无订单" = "No orders";
+"订单金额" = "Order amount";
+"支付金额" = "Payment amount";
+"原密码" = "Original password";
+"请输入原密码" = "Please enter the original password";
+"原密码输入错误" = "Original password entered incorrect";
+"中国客服热线" = "China service hotline";
+"新加坡客服热线" = "Singapore service hotline";
+"香港客服热线" = "Hong Kong service hotline";
+"澳门客服热线" = "Macao service hotline";
+"银联国际" = "UPI QRCode";
+"银联国际 银行卡" = "UPI   Bank card";
+"银联国际银行卡" = "UPI Bank card";
+"扫码枪" = "QRCode";
+"扫码枪 银行卡" = "Scanner    Bank card";
+"扫码枪银行卡" = "Scanner Bank card";
+"添加类型" = "Add type";
+"身份证" = "ID card";
+"军官证" = "Military officer card";
+"护照" = "Passport";
+"回乡证" = "Home return permit";
+"台胞证" = "Mainland travel permit for Taiwan residents";
+"警官证" = "Police identity card";
+"士兵证" = "Military identity card";
+"证件类型" = "ID Type";
+"使用记录" = "History record";
+"积分抵扣" = "Reward points deduction";
+"是否使用积分优惠" = "Use reward points?";
+"暂未绑定银行卡，点击右上角“添加银行卡”后重试" = "Currently no card has been bound at this time, please click the top right corner to “Add bank card” and retry";
+//"月份/年份(如0816)" = "Month/Year (for example 0816)";
+"银行预留手机号" = "Phone number on record";
+"银行卡预留手机支付密码" = "Payment password on record";
+"暂未绑定银行卡,不能消费" = "Currently no card has been bound, Unable to make transactions";
+"未设置支付密码" = "Payment password has not been set yet";
+"去设置" = "Go to settings";
+"优计划详情" = "UPlan Details";
+"优惠详情" = "Coupon Details";
+"未使用" = "Unused";
+"已使用" = "Used";
+"已过期" = "Expired";
+"网络异常，请稍后重试" = "Network anomaly, please try again later";
+"领取成功" = "Received successfully";
+"立\n即\n使\n用" = "U\nS\nE";
+"已\n使\n用" = "U\nS\nE\nD";
+"已\n过\n期" = "E\nX\nP\nI\nR\nE\nD";
+"券已放至\"我的优惠券\"中,限62开头的银行卡使用" = "Coupon is now added to \ “my coupons” \, only valid for bank card number that start with 62";
+"好的" = "Ok";
+"请输入原支付密码，以验证身份" = "Please enter the original payment password to verify your identity";
+"交易查询失败" = "Transaction query failed";
+"暂无优惠" = "No discount";
+"暂无优惠活动" = "No discount at this time";
+"使用积分" = "Use reward points";
+"交易参考号" = "Refer No.";
+"订单号" = "Out trade No.";
+"付款失败" = "Payment failed";
+"请稍后查询交易结果" = "Please check for payment result later";
+"暂无记录" = "No record at this time";
+"添加银联国际银行卡" = "Add UPI Bank card";
+"添加扫码枪银行卡" = "Add Scanner Bank card";
+"交易结果" = "Payment result";
+
+//暂无银行卡，点击右上角\"添加银行卡\"进行绑定 //您还未绑定任何卡，请点击右上角图标“+”添加。
+"暂未绑定支付卡，请点击右上角图标“+”添加重试。" = "Currently no card is tokenised for payment. Please click the top right corner to “Add Card” and retry.";
+"香港" = "Hong Kong";
+"澳门" = "Macao";
+"新密码" = "New password";
+"银行卡绑定成功" = "Bound Successful";
+"认证成功" = "Certified Success";
+
+"查看优惠详情" = "View coupon detail";
+"是否使用优惠券" = "Use the coupon";
+"我知道了" = "OK";
+"知道了" = "OK";
+
+//2.1新增
+"安全认证" = "Security Verification";
+"确认" = "Confirm";
+"支付密码输入错误" = "Payment password error";
+"设置" = "Setting";
+"请选择银行卡" = "Select bank card";
+"选择" = "Select";
+"优惠" = "Discount";
+"上拉加载更多数据" = "Pull up to load more";
+"加载完毕" = "No more data";
+"解绑成功" = "Unbundling Success";
+"绑定成功" = "Binding Success";
+"卡号有误" = "Bank card number error";
+
+"国家／地区" = "Country/Region";
+"余额不足" = "No enough balance";
+"商家优惠信息" = "Merchant discount information";
+"查看更多" = "See more";
+"没有更多优惠券" = "No more coupons";
+"积分最高抵扣" = "Highest rewards rebatable";
+"请输入绑卡所填姓名" = "Enter the name on card";
+"请输入绑卡所填银联卡号" = "Enter the UnionPay card number";
+"点击开通认证，提升消费安全性" = "Click to turn on verification, improve your transaction safety";
+
+"银行卡详情" = "Card details";
+"银联钱包" = "UnionPay wallet";
+"去认证" = "Verify";
+"已认证" = "Verified";
+"不需要认证" = "Not verified";
+"温馨提示：开通认证，提升消费安全性" = "Turn on verification, improve your transaction safety";
+"解除绑定" = "Unlink";
+"确认解绑银行卡" = "Confirm to unlink card";
+"解绑成功" = "Unlink successful";
+"绑定成功" = "Success";
+
+"为保证资金安全，暂只能绑定当前持卡人的银行卡，如需绑定其他持卡人银行卡，请更换实名信息" = "For your funds safety, only current cardholder's card can be linked, if you need to link other cards, please update real name authentification information";
+". 中国境内银联卡请填写银行开户预留证件姓名\n\n. 中国境外银联卡请填写银行开户预留英文姓名或银行卡正面姓名" = "For UnionPay card issued within China territory, please enter your opening account ID name.\n\n For UnionPay card issued outside China territory, please enter your opening account English name or the name on the front of the bank card.";
+"更换实名" = "Update name";
+"注销实名信息" = "Cancel Name Information";
+"解绑所有银行卡" = "Unlink all bank cards";
+"系统将为你清空当前账户的绑卡信息" = "The system will clear current account card information";
+"注销成功后账户信息将产生以下变更" = "Account information will have below changes after the cancellation";
+"原身份信息已注销" = "Cancellation success";
+"交易成功" = "Payment success";
+"确认注销" = "Confirm the cancellation";
+
+//
+"请选择月份" = "Select Month";
+"请选择证件类型" = "Select ID Type";
+"请选择手机区号" = "Select Area Code";
+"修改密码成功" = "Reset password successful";
+"请您打开定位权限，否则无法使用此功能" = "Please open the location permissions, otherwise you cannot use this feature";
+
+"手机号码填写有误" = "Phone number entered incorrect";
+"资料未填写完整" = "The information is not complete";
+"CVN填写有误" = "Bank card security code error";
+"有效期填写有误" = "Expiration date error";
+"确认付款" = "Confirm payment";
+"失败原因" = "The reason";
+
+"此银行卡不需短信验证" = "Text verification is not required for this card";
+
+"申请中付银联预付卡" = "Apply for Sinopay card";
+"推广有奖" = "Promotion & Reward";
+"扫码注册成为“力付”用户\n推荐人获取奖励" = "Scan to register with \"PowerPay Scan\" to get rewards";
+"分享得好礼" = "Share to get gift";
+
+"中国+86" = "China+86";
+"小票" = "Receipt";
+"撤销成功" = "Void success";
+"目前不支持本地区交易" = "This function currently not available in this location.";
+
+
+//2019-10-08
+"登录表示您已阅读并同意:" = "Your login means that you have read and agreed to the";
+"《力付用户协议》" = "《Terms and Conditions》";
+"力付用户协议" = "Terms and Conditions";
+"及" = "and";
+"《隐私条款》" = "《Privacy Policy》";
+"隐私条款" = "Privacy Policy";
+"点击\"下一步\"即表示您已阅读并同意:" = "Click \"Next\" to indicate that you have read and agree:";
+
+
+//预付卡相关
+"点击银行卡查看审核状态" = "Please Click to check on the outcome of the application.";
+"验证银行卡号" = "Verify Your Bank Card";
+"银行卡号" = "Card Number";
+"输入银行卡号" = "Enter Card Number";
+"银行卡密码" = "Password";
+"输入银行卡密码" = "Enter Password";
+"填写个人资料" = "Personal Detail";
+"请选择国籍" = "Select Nationality";
+"请选择居住国家"  = "Please Select Country of Res.";
+"请选择性别"  = "Gender";
+"请选择出生日期" = "Please Select Date of Birth";
+"请选择证件类型" = "Select the type of document";
+"请选择证件有效期" = "Please Enter Expiry Date"; //Please Enter Expiry Date of Document      ?
+"请选择国家区号" = "Please Enter Country Code";
+"请选择币种" = "Please Select Currency";
+"请选择年收入" = "Please Select Annual Income";
+"请选择工作准证有效期" = "Please Enter Expiry Date for EP";
+"请完善必填资料" = "Mandatory field";
+"20000以下" = "20000 and below";
+"1000000以上" = "1000000 and above";
+"男" = "Male";
+"女" = "Female";
+"国籍" = "Nationality";
+"重新认证" = "Recertification";
+"证件资料不完整" = "Incomplete certification document";
+"返回" = "Return";
+"银行卡状态" = "Status of Card";
+"审核通过" = "Approved";
+"待审核" = "Pending";
+"审核不通过" = "Rejected";
+"手机号格式不正确" = "phone number format error";
+"无效的出生日期" = "Invalid date of birth";
+"无效的证件有效期" = "Invalid expiry date of Identification Card";
+"无效的工作准证有效期" = "Invalid expiry date of Employment Pass";
+"上传证件资料" = "Upload Documents";
+"*身份证号" = "*NRIC No.";
+"*护照号" = "*PP/ ID Card No.";
+"输入身份证号" = "Enter NRIC No.";
+"输入护照号" = "Enter Number";
+"余额：人民币" = "Balance：CNY";
+"新币" = "SGD";
+"港币" = "HKD";
+"切换非中国大陆支付" = "Switch to non-Mainland China payment";
+"切换中国大陆支付" = "Switch to Mainland China payment";
+"余额：" = "Balance：";
+
+//新增
+"验证码" = "Verification Code";
+"发送验证码" = "Send verification code";
+"手机号" = "Mobile phone number";
+"真实姓名" = "Full Name";
+"开通指纹登录" = "Fingerprint Login";
+"推荐您使用指纹登录，享受更快捷的登录体验，快来试试吧" = "For faster and easier log-in, would you like to enable this feature?";
+"现在开通" = "Yes";
+"暂不体验" = "No";
+"设置成功" = "fingerprin´t added";
+"指纹登录" = "Fingerprint Login";
+"指纹设置" = "Fingerprint Setup";
+"开启成功" = "completed";
+"点击进行指纹登录" = "Click for fingerprint login";
+"更多" = "More";
+"取消" = "Cancel";
+"验证码登录" = "login with verification code login";
+"切换/注册账号" = "Switch / Register account";
+"登录/注册" = "Login / sign up";
+"代币卡绑卡" = "Tokenise Card";
+"申请卡" = "Apply Card";
+"请输入验证码" = "Please enter the verification code";
+"虚拟卡" = "Virtual card";
+"实体卡" = "Physical card";
+"1.您手机系统里所有解锁指纹均可登录此APP，请注意留存您本人的指纹。\n2.若手机解锁指纹发生变化，需要重新开通指纹登录功能。\n3.该设置只对本机有效，在其他手机上登录时需重新开通。" = "1.All fingerprints stored on your mobile device can be utilised to login to this application.  As such, kindly ensure that only your own fingerprints are stored on your device.\n2.If unable to access with your fingerprint, kindly restore your fingerprint login feature on your device.\n3.You will need to re-initialise this login feature if you are using another device to access your account.";
+"温馨提示" = "Reminder";
+"该银行卡未提交认证资料，是否提交认证资料?" = "The bank card has not been processed for authentication. would you like to submit authentication information?";
+"代理商号" = "Agent number";
+"输入代理商号" = "Enter agent number";
+"中国大陆" = "China";
+"请在系统录入指纹后再验证" = "Please input fingerprint in the system before verification";
+"请开启指纹登录权限后再验证" = "Please turn on the fingerprint login permission and then verify";
+"该设备不支持指纹登录" = "This device does not support fingerprint login";
+"登录APP 需要验证你的指纹" = "please place your fingertip on the scanner to verify your identity";
+"提示" = "notification";
+"指纹登录失败，请选择密码登录!" = "fingerprint not recognised, please login with password";
+"设备Touch ID不可用或者用户未录入！" = "Touch ID is not available or has not been set up";
+"指纹登录失败，请选择密码登录!" = "fingerprint not recognised, please login with password";
+"系统未设置密码" = "no password has been set";
+"TouchID 不可用" = "unable to activate touch id";
+"系统版本不支持TouchID" = "Touch ID is not supported by this device";
+"输入密码" = "Please enter the password";
+"请验证已有指纹，用于开启登录" = "one touch sign in";
+"开启成功" = "sucessfully login";
+"TouchID 验证失败" = "Touch ID verification failed";
+"TouchID 被用户手动取消" = "Touch ID was manually cancelled by the user";
+"用户不使用TouchID,选择手动输入密码" = "Login without Touch ID, select password to log in";
+"TouchID 被系统取消 (如遇到来电,锁屏,按了Home键等)" = "Touch ID is cancelled by the system (e.g. call, lock screen, Home button pressed, etc.)";
+"TouchID 无法启动,因为用户没有设置密码" = "The password has not been set, touch Id cannot be activated";
+"TouchID 无法启动,因为用户没有设置TouchID" = "Touch ID has not been set up, touch Id cannot be activated";
+"TouchID 无效" = "Invalid touch ID";
+"指纹验证失败次数过多\n请稍后再试" = "Fingerprint suspended\nplease try again later";
+"当前软件被挂起并取消了授权 (如App进入了后台等)" = "The current software is suspended and the authorization is cancelled (e.g. App enters the backend, etc.)";
+"当前软件被挂起并取消了授权 (LAContext对象无效)" = "The current software is suspended and the authorization is cancelled (the LAContext object is invalid)";
+"确认关闭指纹登录？" = "Are you sure you want to turn off fingerprint login? ";
+"该设备尚未录入指纹" = "The device has not yet entered a fingerprint";
+"登录APP 需要验证你的指纹" = "Login app needs to verify your fingerprint";
+"指纹登录失败，请选择验证码登录!" = "Fingerprint login failed, please select verification code to login!";
+"操作服务" = "Services";
+
+//"您已申请预付卡，请勿重复申请" = "You have applied for a card, please do not apply again";
+//"申请类型格式不正确" = "Incorrect application type format";
+//"代理号格式不正确" = "Incorrect application type format";

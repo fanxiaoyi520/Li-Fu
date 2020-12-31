@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "注意事项"; ObjectID = "7fa-wW-LVx"; */
+"7fa-wW-LVx.text" = "Precautions:";
+
+/* Class = "UILabel"; text = "请上传背面照片"; ObjectID = "9cS-PV-xhT"; */
+"9cS-PV-xhT.text" = "Front of ID Document";//upload the back photocopy of the Identification Card //Please upload face photographs
+
+/* Class = "UILabel"; text = "请上传账单证明照片"; ObjectID = "BMZ-OC-gbq"; */
+"BMZ-OC-gbq.text" = "Please Upload Photograph of Billing Proof";
+
+/* Class = "UILabel"; text = "请将证件正反面放置指定区域"; ObjectID = "DM9-6C-Sjs"; */
+"DM9-6C-Sjs.text" = "Please Upload Facial Photohgraph(Selfie)";//Please upload the front and reverse sides of documents where applicable
+
+/* Class = "UILabel"; text = "请上传工作准证正面照片"; ObjectID = "EpW-71-e4Y"; */
+"EpW-71-e4Y.text" = "upload the front photocopy of the Employment Pass";
+
+/* Class = "UILabel"; text = "请上传工作准证反面照片"; ObjectID = "J1p-Qa-oak"; */
+"J1p-Qa-oak.text" = "upload the back photocopy of the Employment Pass";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "TR5-bt-E2z"; */
+"TR5-bt-E2z.normalTitle" = "Next Step";
+
+/* Class = "UILabel"; text = "请上传正面照片"; ObjectID = "Xrh-Se-jGC"; */
+"Xrh-Se-jGC.text" = "Please Upload Front & Reverse Sides of ID Document";//upload the front photocopy of the Identification Card //Please upload handheld ID photo
+
+/* Class = "UILabel"; text = "请上传手持证件照片"; ObjectID = "bKV-gr-uaT"; */
+"bKV-gr-uaT.text" = "Reverse Side of ID Document";//upload the Image of applicant holding the Identification Card //Please upload photos back
+
+/* Class = "UILabel"; text = "请上传手持工作准证照片"; ObjectID = "e5L-n4-osD"; */
+"e5L-n4-osD.text" = "upload the Image of applicant holding the Employment Pass";
+
+/* Class = "UILabel"; text = "采用标准拍摄，避免反光和模糊，避免图片太小"; ObjectID = "o7u-kg-1fB"; */
+"o7u-kg-1fB.text" = "Please position the document in the centre,use standard shooting mode on camera and avoid use of flash or reflection";

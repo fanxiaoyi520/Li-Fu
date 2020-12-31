@@ -1,0 +1,20 @@
+/* 
+  InfoPlist.strings
+  newupop
+
+  Created by 中付支付 on 2017/10/18.
+  Copyright © 2017年 中付支付. All rights reserved.
+*/
+
+
+"CFBundleDisplayName" = "PowerPay Scan";
+
+"NSCameraUsageDescription" = "Allow this app to use your camera to scan QR code or change your avatar";
+
+"NSLocationWhenInUseUsageDescription" = "App needs access to your location information to provide more accurate information concessions";
+
+"NSPhotoLibraryAddUsageDescription" = "Allow this app to access your media library for user information";
+
+"NSPhotoLibraryUsageDescription" = "Allow this app to access your media library so that you can change your avatar";
+
+

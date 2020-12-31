@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZFPCAddPicViewController">
+            <connections>
+                <outlet property="bgScrollView" destination="87r-rc-pRd" id="fCz-kP-rvm"/>
+                <outlet property="bgScrollviewTopMargin" destination="mEe-BI-9BK" id="gAe-zw-qSQ"/>
+                <outlet property="bottomMargin" destination="vHi-Db-AGB" id="HAy-St-hUl"/>
+                <outlet property="gzzzpic1" destination="eSc-jJ-VLX" id="TWA-kd-760"/>
+                <outlet property="gzzzpic1TopMargin" destination="5t5-dL-Ugj" id="ULT-Sf-J3G"/>
+                <outlet property="gzzzpic1_Height" destination="d4C-V4-WYH" id="Yrw-1L-TZX"/>
+                <outlet property="gzzzpic2" destination="3hj-39-T9v" id="wDu-lZ-e8h"/>
+                <outlet property="gzzzpic2_Height" destination="3QH-lc-VVZ" id="eip-tt-1Nc"/>
+                <outlet property="gzzzpic3" destination="oP1-JT-2ij" id="JYs-el-gcC"/>
+                <outlet property="gzzzpic3_Height" destination="xVh-IE-3iB" id="Wtl-D3-zAc"/>
+                <outlet property="nextStepBtn" destination="TR5-bt-E2z" id="Nwk-oM-n7O"/>
+                <outlet property="notoLabel" destination="o7u-kg-1fB" id="1Rs-dK-rL4"/>
+                <outlet property="notoLabelHeight" destination="cct-dr-sUo" id="t3s-WY-gNl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="zdpic1" destination="fSc-Rl-HA6" id="wzD-Kn-4k1"/>
+                <outlet property="zdpicTopMargin" destination="oMB-kA-R7o" id="N84-Cn-jPl"/>
+                <outlet property="zmpic1" destination="yro-So-W33" id="Abd-P8-osg"/>
+                <outlet property="zmpic2" destination="a2F-q7-14c" id="v03-uv-EpT"/>
+                <outlet property="zmpic3" destination="Aif-xz-15t" id="eZO-i0-zEe"/>
+                <outlet property="zmpic3Label" destination="bKV-gr-uaT" id="NUu-eF-oRC"/>
+                <outlet property="zmpic3_Height" destination="VzE-Xs-lX0" id="dOJ-Qf-RbJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87r-rc-pRd">
+                    <rect key="frame" x="0.0" y="-900" width="414" height="1796"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wxz-El-9cd">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1892"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请将证件正反面放置指定区域" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DM9-6C-Sjs">
+                                    <rect key="frame" x="20" y="15" width="374" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.10588235294117647" green="0.090196078431372548" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_shouchizhengjian" translatesAutoresizingMaskIntoConstraints="NO" id="yro-So-W33">
+                                    <rect key="frame" x="52" y="63" width="310" height="180"/>
+                                    <gestureRecognizers/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="yro-So-W33" secondAttribute="height" multiplier="310:180" id="9Mx-zJ-BEe"/>
+                                        <constraint firstAttribute="height" constant="180" id="cbg-QX-JuJ"/>
+                                    </constraints>
+                                    <connections>
+                                        <outletCollection property="gestureRecognizers" destination="6lW-Bk-V8y" appends="YES" id="H2c-WP-ACk"/>
+                                    </connections>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请上传正面照片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xrh-Se-jGC">
+                                    <rect key="frame" x="160.5" y="258" width="93" height="15"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="9rZ-A7-LRP"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_zhengmian" translatesAutoresizingMaskIntoConstraints="NO" id="a2F-q7-14c">
+                                    <rect key="frame" x="52" y="303" width="310" height="180"/>
+                                    <gestureRecognizers/>
+                                    <connections>
+                                        <outletCollection property="gestureRecognizers" destination="nXh-CF-LRu" appends="YES" id="9Uo-Wq-CFc"/>
+                                    </connections>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请上传背面照片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cS-PV-xhT">
+                                    <rect key="frame" x="160.5" y="498" width="93" height="15"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="XjL-VZ-pVN"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_beimianzhaopian" translatesAutoresizingMaskIntoConstraints="NO" id="Aif-xz-15t">
+                                    <rect key="frame" x="52" y="543" width="310" height="180"/>
+                                    <gestureRecognizers/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="180" id="VzE-Xs-lX0"/>
+                                        <constraint firstAttribute="width" secondItem="Aif-xz-15t" secondAttribute="height" multiplier="310:180" id="toV-pb-qcc"/>
+                                    </constraints>
+                                    <connections>
+                                        <outletCollection property="gestureRecognizers" destination="eK7-8G-7ZS" appends="YES" id="933-Kk-0qH"/>
+                                    </connections>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请上传手持证件照片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKV-gr-uaT">
+                                    <rect key="frame" x="147.5" y="738" width="119.5" height="15"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="gtQ-WT-t6a"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_shouchigongzuozheng" translatesAutoresizingMaskIntoConstraints="NO" id="eSc-jJ-VLX">
+                                    <rect key="frame" x="52" y="783" width="310" height="180"/>
+                                    <gestureRecognizers/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="180" id="d4C-V4-WYH"/>
+                                        <constraint firstAttribute="width" secondItem="eSc-jJ-VLX" secondAttribute="height" multiplier="310:180" id="ihR-h3-kdH"/>
+                                    </constraints>
+                                    <connections>
+                                        <outletCollection property="gestureRecognizers" destination="FYU-mF-bOL" appends="YES" id="HeC-gg-bEr"/>
+                                    </connections>
+                                </imageView>
+                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请上传工作准证正面照片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpW-71-e4Y">
+                                    <rect key="frame" x="134" y="978" width="146" height="15"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="qD9-Jo-Rgn"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_gongzuozheng1" translatesAutoresizingMaskIntoConstraints="NO" id="3hj-39-T9v">
+                                    <rect key="frame" x="52" y="1023" width="310" height="180"/>
+                                    <gestureRecognizers/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="180" id="3QH-lc-VVZ"/>
+                                        <constraint firstAttribute="width" secondItem="3hj-39-T9v" secondAttribute="height" multiplier="310:180" id="KJZ-Ag-qzr"/>
+                                    </constraints>
+                                    <connections>
+                                        <outletCollection property="gestureRecognizers" destination="wNH-9c-SGu" appends="YES" id="cXI-Tj-mlV"/>
+                                    </connections>
+                                </imageView>
+                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请上传工作准证反面照片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1p-Qa-oak">
+                                    <rect key="frame" x="134" y="1218" width="146" height="15"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="h8T-tM-Rej"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_gongzuozheng2" translatesAutoresizingMaskIntoConstraints="NO" id="oP1-JT-2ij">
+                                    <rect key="frame" x="52" y="1263" width="310" height="180"/>
+                                    <gestureRecognizers/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="oP1-JT-2ij" secondAttribute="height" multiplier="310:180" id="NGA-Pb-vTJ"/>
+                                        <constraint firstAttribute="height" constant="180" id="xVh-IE-3iB"/>
+                                    </constraints>
+                                    <connections>
+                                        <outletCollection property="gestureRecognizers" destination="rpo-kt-u4n" appends="YES" id="tnY-DJ-TQh"/>
+                                    </connections>
+                                </imageView>
+                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请上传手持工作准证照片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5L-n4-osD">
+                                    <rect key="frame" x="134" y="1458" width="146" height="15"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="3xk-Qm-CFm"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_zhangdan" translatesAutoresizingMaskIntoConstraints="NO" id="fSc-Rl-HA6">
+                                    <rect key="frame" x="52" y="1503" width="310" height="180"/>
+                                    <gestureRecognizers/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="fSc-Rl-HA6" secondAttribute="height" multiplier="310:180" id="KMA-BV-Suu"/>
+                                        <constraint firstAttribute="height" constant="180" id="wfh-b6-dAM"/>
+                                    </constraints>
+                                    <connections>
+                                        <outletCollection property="gestureRecognizers" destination="jQb-ja-U3g" appends="YES" id="Dig-pE-B9R"/>
+                                    </connections>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请上传账单证明照片" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMZ-OC-gbq">
+                                    <rect key="frame" x="52" y="1698" width="310" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="eoL-C4-pwN"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注意事项:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fa-wW-LVx">
+                                    <rect key="frame" x="32" y="1753" width="350" height="15"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="wGd-hx-6ab"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.60784313725490191" green="0.59215686274509804" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="采用标准拍摄，避免反光和模糊，避免图片太小" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7u-kg-1fB">
+                                    <rect key="frame" x="32" y="1773" width="352" height="15"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="15" id="cct-dr-sUo"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" red="0.60784313725490191" green="0.59215686274509804" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TR5-bt-E2z">
+                                    <rect key="frame" x="20" y="1818" width="374" height="44"/>
+                                    <color key="backgroundColor" red="0.31764705879999999" green="0.42745098040000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="vKh-TI-f9c"/>
+                                    </constraints>
+                                    <state key="normal" title="下一步">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="20"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="next:" destination="-1" eventType="touchUpInside" id="8i9-AV-82A"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstItem="3hj-39-T9v" firstAttribute="centerX" secondItem="Wxz-El-9cd" secondAttribute="centerX" id="0Hv-i3-yL1"/>
+                                <constraint firstItem="7fa-wW-LVx" firstAttribute="top" secondItem="BMZ-OC-gbq" secondAttribute="bottom" constant="15" id="0ps-Vb-fnQ"/>
+                                <constraint firstItem="BMZ-OC-gbq" firstAttribute="top" secondItem="fSc-Rl-HA6" secondAttribute="bottom" constant="15" id="3mL-WV-Rb2"/>
+                                <constraint firstItem="eSc-jJ-VLX" firstAttribute="top" secondItem="Aif-xz-15t" secondAttribute="bottom" constant="60" id="5t5-dL-Ugj"/>
+                                <constraint firstItem="TR5-bt-E2z" firstAttribute="top" secondItem="o7u-kg-1fB" secondAttribute="bottom" constant="30" id="7H7-IE-RJc"/>
+                                <constraint firstItem="eSc-jJ-VLX" firstAttribute="centerX" secondItem="Wxz-El-9cd" secondAttribute="centerX" id="8Y4-LM-trP"/>
+                                <constraint firstItem="3hj-39-T9v" firstAttribute="top" secondItem="eSc-jJ-VLX" secondAttribute="bottom" constant="60" id="CmL-II-Psh"/>
+                                <constraint firstItem="BMZ-OC-gbq" firstAttribute="leading" secondItem="fSc-Rl-HA6" secondAttribute="leading" id="DCH-3b-D31"/>
+                                <constraint firstItem="EpW-71-e4Y" firstAttribute="centerX" secondItem="eSc-jJ-VLX" secondAttribute="centerX" id="Ehk-Kp-2V9"/>
+                                <constraint firstItem="e5L-n4-osD" firstAttribute="centerX" secondItem="oP1-JT-2ij" secondAttribute="centerX" id="GNU-e0-7LL"/>
+                                <constraint firstItem="DM9-6C-Sjs" firstAttribute="top" secondItem="Wxz-El-9cd" secondAttribute="top" constant="15" id="GtK-a7-Zhd"/>
+                                <constraint firstItem="yro-So-W33" firstAttribute="centerX" secondItem="Wxz-El-9cd" secondAttribute="centerX" id="Kfn-zy-vdT"/>
+                                <constraint firstAttribute="trailing" secondItem="o7u-kg-1fB" secondAttribute="trailing" constant="30" id="KiZ-6u-PPw"/>
+                                <constraint firstItem="o7u-kg-1fB" firstAttribute="leading" secondItem="7fa-wW-LVx" secondAttribute="leading" id="O9S-Df-rru"/>
+                                <constraint firstItem="Aif-xz-15t" firstAttribute="top" secondItem="a2F-q7-14c" secondAttribute="bottom" constant="60" id="OD6-Mg-sfR"/>
+                                <constraint firstAttribute="trailing" secondItem="7fa-wW-LVx" secondAttribute="trailing" constant="32" id="PjE-hK-h3j"/>
+                                <constraint firstItem="DM9-6C-Sjs" firstAttribute="leading" secondItem="Wxz-El-9cd" secondAttribute="leading" constant="20" id="Pok-eJ-WdP"/>
+                                <constraint firstItem="BMZ-OC-gbq" firstAttribute="trailing" secondItem="fSc-Rl-HA6" secondAttribute="trailing" id="R4V-El-J9r"/>
+                                <constraint firstItem="9cS-PV-xhT" firstAttribute="centerX" secondItem="a2F-q7-14c" secondAttribute="centerX" id="R9b-4X-Rgf"/>
+                                <constraint firstAttribute="trailing" secondItem="TR5-bt-E2z" secondAttribute="trailing" constant="20" id="US6-qS-rMO"/>
+                                <constraint firstItem="TR5-bt-E2z" firstAttribute="leading" secondItem="Wxz-El-9cd" secondAttribute="leading" constant="20" id="VKk-SE-w6N"/>
+                                <constraint firstItem="o7u-kg-1fB" firstAttribute="top" secondItem="7fa-wW-LVx" secondAttribute="bottom" constant="5" id="ZjR-ae-3gX"/>
+                                <constraint firstItem="9cS-PV-xhT" firstAttribute="top" secondItem="a2F-q7-14c" secondAttribute="bottom" constant="15" id="aMH-rc-qFp"/>
+                                <constraint firstItem="a2F-q7-14c" firstAttribute="width" secondItem="yro-So-W33" secondAttribute="width" id="agU-Ta-wlZ"/>
+                                <constraint firstItem="BMZ-OC-gbq" firstAttribute="centerX" secondItem="fSc-Rl-HA6" secondAttribute="centerX" id="bTx-8X-5SL"/>
+                                <constraint firstItem="DM9-6C-Sjs" firstAttribute="centerX" secondItem="Wxz-El-9cd" secondAttribute="centerX" id="ctf-Pv-7DF"/>
+                                <constraint firstAttribute="trailing" secondItem="DM9-6C-Sjs" secondAttribute="trailing" constant="20" id="d9O-Vz-y9s"/>
+                                <constraint firstItem="bKV-gr-uaT" firstAttribute="top" secondItem="Aif-xz-15t" secondAttribute="bottom" constant="15" id="dXE-I5-NS5"/>
+                                <constraint firstItem="Xrh-Se-jGC" firstAttribute="top" secondItem="yro-So-W33" secondAttribute="bottom" constant="15" id="fWY-Km-Lg8"/>
+                                <constraint firstItem="e5L-n4-osD" firstAttribute="top" secondItem="oP1-JT-2ij" secondAttribute="bottom" constant="15" id="hd9-Ol-5tq"/>
+                                <constraint firstItem="7fa-wW-LVx" firstAttribute="leading" secondItem="Wxz-El-9cd" secondAttribute="leading" constant="32" id="iqy-Yx-RFw"/>
+                                <constraint firstItem="J1p-Qa-oak" firstAttribute="top" secondItem="3hj-39-T9v" secondAttribute="bottom" constant="15" id="kcK-S9-uac"/>
+                                <constraint firstItem="EpW-71-e4Y" firstAttribute="top" secondItem="eSc-jJ-VLX" secondAttribute="bottom" constant="15" id="mtu-sK-HzK"/>
+                                <constraint firstItem="fSc-Rl-HA6" firstAttribute="top" secondItem="oP1-JT-2ij" secondAttribute="bottom" constant="60" id="oMB-kA-R7o"/>
+                                <constraint firstItem="oP1-JT-2ij" firstAttribute="centerX" secondItem="Wxz-El-9cd" secondAttribute="centerX" id="ow9-Xb-P51"/>
+                                <constraint firstItem="a2F-q7-14c" firstAttribute="height" secondItem="yro-So-W33" secondAttribute="height" id="q76-hR-MrQ"/>
+                                <constraint firstItem="oP1-JT-2ij" firstAttribute="top" secondItem="3hj-39-T9v" secondAttribute="bottom" constant="60" id="t6e-fH-VeW"/>
+                                <constraint firstItem="fSc-Rl-HA6" firstAttribute="centerX" secondItem="Wxz-El-9cd" secondAttribute="centerX" id="tOh-MF-2gz"/>
+                                <constraint firstAttribute="bottom" secondItem="TR5-bt-E2z" secondAttribute="bottom" constant="30" id="vHi-Db-AGB"/>
+                                <constraint firstItem="Xrh-Se-jGC" firstAttribute="centerX" secondItem="yro-So-W33" secondAttribute="centerX" id="xBb-h2-tdM"/>
+                                <constraint firstItem="a2F-q7-14c" firstAttribute="centerX" secondItem="Wxz-El-9cd" secondAttribute="centerX" id="xVT-U3-TlK"/>
+                                <constraint firstItem="J1p-Qa-oak" firstAttribute="centerX" secondItem="3hj-39-T9v" secondAttribute="centerX" id="xxs-5D-siI"/>
+                                <constraint firstItem="a2F-q7-14c" firstAttribute="top" secondItem="yro-So-W33" secondAttribute="bottom" constant="60" id="yFF-8g-JPY"/>
+                                <constraint firstItem="yro-So-W33" firstAttribute="top" secondItem="DM9-6C-Sjs" secondAttribute="bottom" constant="32" id="zIj-g4-2It"/>
+                                <constraint firstItem="bKV-gr-uaT" firstAttribute="centerX" secondItem="Aif-xz-15t" secondAttribute="centerX" id="zml-AI-H1l"/>
+                                <constraint firstItem="Aif-xz-15t" firstAttribute="centerX" secondItem="Wxz-El-9cd" secondAttribute="centerX" id="zx3-mb-Mha"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Wxz-El-9cd" firstAttribute="centerX" secondItem="87r-rc-pRd" secondAttribute="centerX" id="3RB-Gq-N5U"/>
+                        <constraint firstAttribute="trailing" secondItem="Wxz-El-9cd" secondAttribute="trailing" id="8Do-dv-NMr"/>
+                        <constraint firstItem="Wxz-El-9cd" firstAttribute="leading" secondItem="87r-rc-pRd" secondAttribute="leading" id="Acv-tB-wnf"/>
+                        <constraint firstItem="Wxz-El-9cd" firstAttribute="top" secondItem="87r-rc-pRd" secondAttribute="top" id="h9X-mK-86m"/>
+                        <constraint firstAttribute="bottom" secondItem="Wxz-El-9cd" secondAttribute="bottom" id="m0w-BX-5m4"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="87r-rc-pRd" secondAttribute="trailing" id="0j9-8I-vXb"/>
+                <constraint firstItem="87r-rc-pRd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="81H-Hk-QEe"/>
+                <constraint firstAttribute="bottom" secondItem="87r-rc-pRd" secondAttribute="bottom" id="PAB-ot-Qmo"/>
+                <constraint firstItem="87r-rc-pRd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="-900" id="mEe-BI-9BK"/>
+            </constraints>
+            <point key="canvasLocation" x="-759" y="-90"/>
+        </view>
+        <tapGestureRecognizer id="6lW-Bk-V8y">
+            <connections>
+                <action selector="zdpicTap:" destination="-1" id="l7f-rM-h1u"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="nXh-CF-LRu">
+            <connections>
+                <action selector="zdpicTap:" destination="-1" id="3MY-qf-RDv"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="eK7-8G-7ZS">
+            <connections>
+                <action selector="zdpicTap:" destination="-1" id="5JV-oZ-RN4"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="wNH-9c-SGu">
+            <connections>
+                <action selector="zdpicTap:" destination="-1" id="XsM-Jx-ZJM"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="rpo-kt-u4n">
+            <connections>
+                <action selector="zdpicTap:" destination="-1" id="Ww3-JA-1kc"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="jQb-ja-U3g">
+            <connections>
+                <action selector="zdpicTap:" destination="-1" id="BbP-he-KSB"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="FYU-mF-bOL">
+            <connections>
+                <action selector="zdpicTap:" destination="-1" id="Lkb-iJ-QcW"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="icon_beimianzhaopian" width="311" height="180"/>
+        <image name="icon_gongzuozheng1" width="311" height="180"/>
+        <image name="icon_gongzuozheng2" width="311" height="180"/>
+        <image name="icon_shouchigongzuozheng" width="311" height="180"/>
+        <image name="icon_shouchizhengjian" width="311" height="180"/>
+        <image name="icon_zhangdan" width="311" height="180"/>
+        <image name="icon_zhengmian" width="311" height="180"/>
+    </resources>
+</document>

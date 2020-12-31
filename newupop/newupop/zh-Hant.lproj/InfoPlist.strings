@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  newupop
+
+  Created by 中付支付 on 2017/10/18.
+  Copyright © 2017年 中付支付. All rights reserved.
+*/
+"CFBundleDisplayName" = "力付";
+
+"NSCameraUsageDescription" = "是否允許此App使用你的相機，以便掃描二維碼或更換頭像等操作？";
+
+"NSLocationWhenInUseUsageDescription" = "App需要獲取您的位置信息，以便提供更準確的優惠信息";
+
+"NSPhotoLibraryUsageDescription" = "是否允許此App訪問你的媒體資料庫，以便更換頭像等操作？";

@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "银行卡号"; ObjectID = "4hs-ae-dKL"; */
+"4hs-ae-dKL.text" = "银行卡号";
+
+/* Class = "UILabel"; text = "审核状态"; ObjectID = "7sW-LR-0Pg"; */
+"7sW-LR-0Pg.text" = "审核状态";
+
+/* Class = "UILabel"; text = "原因"; ObjectID = "FCn-LA-LHT"; */
+"FCn-LA-LHT.text" = "原因";
+
+/* Class = "UIButton"; normalTitle = "重新认证"; ObjectID = "aB9-17-O3o"; */
+"aB9-17-O3o.normalTitle" = "重新认证";
+
+/* Class = "UILabel"; text = "如果家庭地址与身份证上的不同，请提供账单证明。非永久居民必须提供帐单证明；"; ObjectID = "mfz-bH-m1o"; */
+"mfz-bH-m1o.text" = "如果家庭地址与身份证上的不同，请提供账单证明。非永久居民必须提供帐单证明；";
